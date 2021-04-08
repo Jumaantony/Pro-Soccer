@@ -246,6 +246,40 @@
 }
 
 
+/** team detail **/
+
+.teamdetail-header{
+	width: 100%;
+	height: auto;
+	clip-path: polygon(100% 0, 100% 90%, 50% 100%, 0 90%, 0 0);
+	background-image: url(../images/teamdetail-header.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.teamdetail-header::before{
+	content: "";
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: .5;
+}
+
+.teamdetail-header-cont{
+	position: relative;
+}
+
+.stats-img{
+	width: 100px;
+	height: 100;
+}
+
+
 
 /** footer **/
 

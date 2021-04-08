@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About US</title>
+
+  <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- icon -->
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+
+    <!-- style. css -->
+    <link rel="stylesheet" type="text/css" href=" css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+</head>
+<body>
+   <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="index.html"><img src="images/logo.png" class="logo" alt="logo"></a>
+
+          <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon "></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+              <li class="nav-item">
+                <a class="nav-link active text-light fw-bold" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light fw-bold" href="about.html">About</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light fw-bold" href="teamlist.html">Team</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light fw-bold" href="newslist.html">News</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light fw-bold" href="resultslist.html">Match Results</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light fw-bold" href="fixturelist.html">Fxtures</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light fw-bold" href="ticketlist.html">Buy Tickets</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link text-light fw-bold" href="contact.html">Contact Us</a>
+              </li>
+
+          <!-- sign in modal -->  
+
+              <li class="nav-item">
+                <a class="nav-link">
+                  <button type="button" class="btn btn-light text-warning fw-bold" data-bs-toggle="modal" data-bs-target="#sign-in">SIGN IN</button>
+                </a>
+              </li>
+
+              <!-- sign in Modal -->
+              <div class="modal fade" id="sign-in" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                <div class="modal-dialog">
+
+                  <div class="modal-content">
+
+                    <div class="modal-header">
+
+                      <h5 class="modal-title" id="sign-in">SIGN-IN</h5>
+
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      
+                     <form class="">
+                      <input class="form-control me-2" type="Username" placeholder="Username/Email" aria-label="Username">
+
+                      <br>
+
+                      <input class="form-control me-2" type="Password" placeholder="Password" aria-label="Password">
+
+                      <br>
+
+                      <button class="btn btn-outline-warning fw-bold" type="submit">SIGN-IN</button>
+                      
+                      <br>  
+                      <p class="fw-bold fst-italic"> Sign-in with</p>
+                      
+
+                      <button class="btn btn-outline-primary bg-primary fw-bold text-light" type="submit">FACEBOOK</button>
+
+                      <button class="btn btn-outline-danger bg-danger fw-bold text-light" type="submit">GOOGLE</button>
+                      
+                    </form>
+
+                    </div>
+                    <div class="modal-footer">
+
+                      <p> Don't have an Account yet? <a href="#sign-up" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> SIGN UP</a></p>
+        
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+          <!-- sign up Button trigger modal  -->    
+              <li class="nav-item">
+                <a class="nav-link">
+                  <button type="button" class="btn btn-warning text-light fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop" id="sign-up">SIGN UP</button>
+                </a>
+              </li>
+             
+
+              <!-- Modal -->
+              <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">SIGN UP</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <input class="form-control me-2" type="text" placeholder="Last Name" aria-label="Lname">
+
+                      <br>
+                      <input class="form-control me-2" type="text" placeholder="First Name" aria-label="Fname">
+
+                      <br>
+                      <input class="form-control me-2" type="email" placeholder="Email" aria-label="Username">
+
+                      <br>
+
+                      <input class="form-control me-2" type="password" placeholder="Password" aria-label="Password">
+
+                      <br>
+                      <input class="form-control me-2" type="password" placeholder="Confirm Password" aria-label="Password">
+
+                      <br>
+
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Male
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Female
+                        </label>
+                      </div>
+
+                      <br>
+
+                      <button class="btn btn-outline-warning fw-bold" type="submit">SIGN-UP</button>
+                      
+                      <br>  
+                      <p class="fw-bold fst-italic"> Sign-Up with</p>
+
+                      <button class="btn btn-outline-primary bg-primary fw-bold text-light" type="submit">FACEBOOK</button>
+
+                      <button class="btn btn-outline-danger bg-danger fw-bold text-light" type="submit">GOOGLE</button>
+
+                    </div>
+
+                    <div class="modal-footer">
+                      <p> Have an Account? <a href="#sign-up" data-bs-toggle="modal" data-bs-target="#sign-in"> SIGN IN</a></p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+             
+            </ul>
+
+            <form class="d-flex">
+              <input class="form-control me-2 form-control-outline-warning" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-warning" type="submit">Search</button>
+            </form>
+
+          </div>
+        </div>
+  </nav>
+
+  <!-- header img -->
+
+    <header class="teamdetail-header justify-content-start">
+       <div class="row container-fluid gx-2 teamdetail-header-cont">
+
+          <div class="col-4">
+            <img src="images/players/player1.jpg" class="img-fluid">
+          </div>
+
+          <div class="col-8 text-light">
+            <div class="row pb-1">
+              <div class="col">
+                <h1 class="d-inline text-warning">33</h1>
+                <h2 class="d-inline ps-2 text-light text-capitalize">JOSE MOURINO</h2>
+              </div>
+            </div>
+            <div class="row justify-content-evenly">
+              <div class="col">
+                <h6 class="text-warning fw-bold">Nationality :</h6>
+                <h7 class="fw-bold">Kenyan</h7>
+                
+              </div>
+              <div class="col">
+                <h6 class="text-warning fw-bold">Date Of Birth :</h6>
+                <h7 class="fw-bold">23rd-10-2020</h7>
+              </div>
+              <div class="col">
+                <h6 class="text-warning fw-bold">Position :</h6>
+                <h7 class="fw-bold">Golie</h7>
+              </div>
+            </div>
+
+            <div class="row pt-2 justify-content-evenly">
+              <div class="col">
+                <h6 class="text-warning fw-bold">Height :</h6>
+                <h7 class="fw-bold">6.5ft</h7>
+                
+              </div>
+              <div class="col">
+                <h6 class="text-warning fw-bold">Weight :</h6>
+                <h7  class="fw-bold">50 lbs</h7>
+              </div>
+              <div class="col">
+                <h6 class="text-warning fw-bold">Joined :</h6>
+                <h7 class="fw-bold">23rd-10-2020</h7>
+              </div>
+              
+            </div>
+            <div class="row pt-2 pb-3">
+              <div class="col">
+                  <i class="fa fa-facebook text-warning fw-bold" aria-hidden="true"> @josemourino</i>
+              </div>
+              <div class="col">
+                  <i class="fa fa-twitter text-warning fw-bold" aria-hidden="true"> @josemourino</i>
+              </div>
+              <div class="col">
+                  <i class="fa fa-instagram text-warning fw-bold" aria-hidden="true"> @josemourino</i>
+              </div>
+              
+            </div>
+            </div>
+          </div>
+         
+       </div>
+    </header>
+
+    <!-- player stats and bio -->
+
+    <h1 class="fw-bold ms-3">STATS</h1>
+    <div class=" row container-fluid">
+      <di class="col-md-7">
+        <div class="row justify-content-around">
+          <div class="col-5 col-lg-2 border border-5 border-top-0 border-end-0 border-start-0 border-warning ms-1">
+            <img src="images/stats/games-started.jpg" class="stats-img mx-auto d-block mt-1">
+            <h3 class="text-center fw-bold">5</h3>
+            <h6 class="text-center fw-bold">Games started</h6>
+          </div>
+
+          <div class="col-5 col-lg-2 border border-5 border-top-0 border-end-0 border-start-0 border-warning ms-1">
+            <img src="images/stats/minutes played.png" class="stats-img mx-auto d-block mt-1">
+            <h3 class="text-center fw-bold">3600</h3>
+            <h6 class="text-center fw-bold">Minutes Played</h6>
+          </div>
+
+          <div class="col-5 col-lg-2 border border-5 border-top-0 border-end-0 border-start-0 border-warning ms-1">
+            <img src="images/stats/appearance.png" class="stats-img mx-auto d-block mt-1">
+            <h3 class="text-center fw-bold">5</h3>
+            <h6 class="text-center fw-bold">Appearances</h6>
+          </div>
+
+          <div class="col-5 col-lg-2 border border-5 border-top-0 border-end-0 border-start-0 border-warning ms-1">
+            <img src="images/stats/goals.png" class="stats-img mx-auto d-block mt-1">
+            <h3 class="text-center fw-bold">0</h3>
+            <h6 class="text-center fw-bold">Goals</h6>
+          </div>
+        </div>
+      </di>
+
+          <!-- side bar -->
+      <div class="col-md-5">
+
+          <!-- match fixtures -->
+
+            <h2 class="fw-bold p-1 ps-2 mt-2 bg-dark text-warning border border-4 border-top-0 border-end-0 border-start-0 border-warning">MATCH FIXTURES</h2>
+
+            <table class="table justify-content-center">
+              <tbody>
+
+                <tr>
+                  <td class="text-center">
+                    <img src="images/teams/img1.jpg" class="img-fluid team-img">
+                    <p class="fw-bold">Manchester United</p>
+                  </td>
+                  <td class="text-warning fw-bold text-center fs-3">VS</td>
+                  <td class="text-center">
+                    <img src="images/teams/img2.jpg" class="img-fluid team-img">
+                    <p class="fw-bold">Manchester United</p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="text-center">
+                    <img src="images/teams/img2.jpg" class="img-fluid team-img">
+                    <p class="fw-bold">Manchester United</p>
+                  </td>
+                  <td class="text-warning fw-bold text-center fs-3">VS</td>
+                  <td class="text-center">
+                    <img src="images/teams/img3.jpg" class="img-fluid team-img">
+                    <p class="fw-bold">Chealsea</p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="text-center">
+                    <img src="images/teams/img4.jpg" class="img-fluid team-img">
+                    <p class="fw-bold">Manchester United</p>
+                  </td>
+                  <td class="text-warning fw-bold text-center fs-3">VS</td>
+                  <td class="text-center">
+                    <img src="images/teams/img5.png" class="img-fluid team-img">
+                    <p class="fw-bold">Manchester United</p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="text-center">
+                    <img src="images/teams/img6.jpg" class="img-fluid team-img">
+                    <p class="fw-bold">Manchester United</p>
+                  </td>
+                  <td class="text-warning fw-bold text-center fs-3">VS</td>
+                  <td class="text-center">
+                    <img src="images/teams/img7.jpg" class="img-fluid team-img">
+                    <p class="fw-bold">Manchester United</p>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="text-center">
+                    <img src="images/teams/img8.jpg" class="img-fluid team-img">
+                    <p class="fw-bold">Manchester United</p>
+                  </td>
+                  <td class="text-warning fw-bold text-center fs-3">VS</td>
+                  <td class="text-center">
+                    <img src="images/teams/img4.jpg" class="img-fluid team-img">
+                    <p class="fw-bold">Manchester United</p>
+                  </td>
+                </tr>
+              </tbody>
+
+            </table>
+
+            <a href="" type="button" class="btn btn-dark text-warning fw-bold border border-warning mt-1">VIEW ALL</a>
+
+            <!-- Points table -->
+
+            <h2 class="fw-bold p-1 ps-2 mt-2 bg-dark text-warning border border-4 border-top-0 border-end-0 border-start-0 border-warning">POINTS TABLE</h2>
+
+            <div class="table-responsive">
+              <table class="table table-warning table-striped table-hover table-responsive">
+              <thead>
+                <tr>
+                  <th scope="col">RANK</th>
+                  <th scope="col">TEAM</th>
+                  <th scope="col">PLAYED</th>
+                  <th scope="col">WON</th>
+                  <th scope="col">LOST</th>
+                  <th scope="col">DRAW</th>
+                  <th scope="col">PTS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">1</th>
+                  <td>
+                    <img src="images/teams/img1.jpg" class="img-fluid team-img">
+                  </td>
+                  <td>20</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>10</td>
+                  <td>25</td>
+                </tr>
+
+                <tr>
+                  <th scope="row">2</th>
+                  <td>
+                    <img src="images/teams/img2.jpg" class="img-fluid team-img">
+                  </td>
+                  <td>20</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>10</td>
+                  <td>25</td>
+                </tr>
+
+                <tr>
+                  <th scope="row">3</th>
+                  <td>
+                    <img src="images/teams/img3.jpg" class="img-fluid team-img">
+                  </td>
+                  <td>20</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>10</td>
+                  <td>25</td>
+                </tr>
+
+                <tr>
+                  <th scope="row">4</th>
+                  <td>
+                    <img src="images/teams/img4.jpg" class="img-fluid team-img">
+                  </td>
+                  <td>20</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>10</td>
+                  <td>25</td>
+                </tr>
+
+                <tr>
+                  <th scope="row">5</th>
+                  <td>
+                    <img src="images/teams/img5.png" class="img-fluid team-img">
+                  </td>
+                  <td>20</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>10</td>
+                  <td>25</td>
+                </tr>
+
+                <tr>
+                  <th scope="row">6</th>
+                  <td>
+                    <img src="images/teams/img6.jpg" class="img-fluid team-img">
+                  </td>
+                  <td>20</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>10</td>
+                  <td>25</td>
+                </tr>
+
+                <tr>
+                  <th scope="row">7</th>
+                  <td>
+                    <img src="images/teams/img7.jpg" class="img-fluid team-img">
+                  </td>
+                  <td>20</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>10</td>
+                  <td>25</td>
+                </tr>
+
+                <tr>
+                  <th scope="row">8</th>
+                  <td>
+                    <img src="images/teams/img8.jpg" class="img-fluid team-img">
+                  </td>
+                  <td>20</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>10</td>
+                  <td>25</td>
+                </tr>
+
+                <tr>
+                  <th scope="row">9</th>
+                  <td>
+                    <img src="images/teams/img9.jpg" class="img-fluid team-img">
+                  </td>
+                  <td>20</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>10</td>
+                  <td>25</td>
+                </tr>
+
+                <tr>
+                  <th scope="row">10</th>
+                  <td>
+                    <img src="images/teams/img10.jpg" class="img-fluid team-img">
+                  </td>
+                  <td>20</td>
+                  <td>5</td>
+                  <td>5</td>
+                  <td>10</td>
+                  <td>25</td>
+                </tr>
+
+              </tbody>
+            </table>
+            </div>
+
+            
+            <!-- match results -->
+
+            <h2 class="fw-bold p-1 ps-2 mt-2 bg-dark text-warning border border-4 border-top-0 border-end-0 border-start-0 border-warning">MATCH RESULTS</h2>
+
+            <table class="table justify-content-center">
+              <tbody>
+
+                <tr>
+                  <td class="text-center">
+                    <img src="images/teams/img1.jpg" class="img-fluid team-img">
+                    
+                  </td>
+                  <td class="text-dark fw-bold text-center fs-3"> 2-0</td>
+                  <td class="text-center">
+                    <img src="images/teams/img2.jpg" class="img-fluid team-img">
+                    
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="text-center">
+                    <img src="images/teams/img2.jpg" class="img-fluid team-img">
+                    
+                  </td>
+                  <td class="text-dark fw-bold text-center fs-3"> 2-4</td>
+                  <td class="text-center">
+                    <img src="images/teams/img3.jpg" class="img-fluid team-img">
+                    
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="text-center">
+                    <img src="images/teams/img4.jpg" class="img-fluid team-img">
+                    
+                  </td>
+                  <td class="text-dark fw-bold text-center fs-3"> 2-4</td>
+                  <td class="text-center">
+                    <img src="images/teams/img5.png" class="img-fluid team-img">
+                    
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="text-center">
+                    <img src="images/teams/img6.jpg" class="img-fluid team-img">
+                    
+                  </td>
+                  <td class="text-dark fw-bold text-center fs-3"> 5-0</td>
+                  <td class="text-center">
+                    <img src="images/teams/img7.jpg" class="img-fluid team-img">
+                    
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="text-center">
+                    <img src="images/teams/img8.jpg" class="img-fluid team-img">
+                    
+                  </td>
+                  <td class="text-dark fw-bold text-center fs-3"> 2-1</td>
+                  <td class="text-center">
+                    <img src="images/teams/img4.jpg" class="img-fluid team-img">
+                    
+                  </td>
+                </tr>
+              </tbody>
+
+            </table>
+
+            <a href="" type="button" class="btn btn-dark text-warning fw-bold border border-warning mt-1">VIEW MORE</a>
+
+            <br>
+
+            <!-- recent news -->
+
+            <h2 class="fw-bold p-1 ps-2 mt-2 bg-dark text-light border border-4 border-top-0 border-end-0 border-start-0 border-warning">RECENT NEWS</h2>
+
+            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
+
+            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
+
+            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
+
+            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
+
+            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
+
+            <br>
+
+            <!-- latest blog posts -->
+
+            <h2 class="fw-bold p-1 ps-2 mt-2 bg-dark text-light border border-4 border-top-0 border-end-0 border-start-0 border-warning">LATEST BLOG POSTS</h2>
+
+            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
+
+            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
+
+            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
+
+            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
+
+            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
+      </div> 
+    
+    </div>
+
+
+ 
+
+  <!-- footer section --> 
+
+  <footer class="container-fluid mt-5">
+    <div class="foot-cont">
+
+      <div class="row">
+            <div class="col-md-4 text-light">
+              <img src="images/logo.png" class="img-fluid p-2">
+              <p class="">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+              tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim</p>      
+
+              <!-- Contact info --> 
+              <h4 class="text-warning fw-bold">Contact Us</h4>
+
+              <p><i class="fa fa-phone fa-1x text-warning" aria-hidden="true"></i> +254 742 491 942</p>
+              <p><i class="fa fa-envelope fa-1x text-warning" aria-hidden="true"></i> prosoccer@soccer.com</p>
+              <p><i class="fa fa-location-arrow fa-1x text-warning" aria-hidden="true"></i> 305 LA</p>
+
+
+              <div class="mb-2">
+                <a href="" class="text-decoration-none text-warning"><i class="fa fa-facebook fs-3" aria-hidden="true"></i></a>
+                <a href="" class="text-decoration-none ps-3 text-warning"><i class="fa fa-twitter fs-3" aria-hidden="true"></i></a>
+                <a href="" class="text-decoration-none ps-3 text-warning"><i class="fa fa-instagram fs-3" aria-hidden="true"></i></a>
+                <a href="" class="text-decoration-none ps-3 text-warning"><i class="fa fa-linkedin fs-3" aria-hidden="true"></i></a>
+              </div>
+
+
+
+            </div>
+
+            <div class="col-md-4 text-light">
+                <!-- news section --> 
+              <h3 class="fw-bold text-warning">Latest News</h3>
+              <h5><a href="" class="text-decoration-none text-light">Lorem ipsum dolor sit amet</a></h5>
+              <h5><a href="" class="text-decoration-none text-light">Lorem ipsum dolor sit amet</a></h5>
+              <h5><a href="" class="text-decoration-none text-light">Lorem ipsum dolor sit amet</a></h5>
+              <h5><a href="" class="text-decoration-none text-light">Lorem ipsum dolor sit amet</a></h5>
+
+                <!-- blog section --> 
+              <h3 class="fw-bold text-warning">Recent Blog Posts</h3>
+              <h5><a href="" class="text-decoration-none text-light">Lorem ipsum dolor sit amet</a></h5>
+              <h5><a href="" class="text-decoration-none text-light">Lorem ipsum dolor sit amet</a></h5>
+              <h5><a href="" class="text-decoration-none text-light">Lorem ipsum dolor sit amet</a></h5>
+              <h5><a href="" class="text-decoration-none text-light">Lorem ipsum dolor sit amet</a></h5>
+            </div>
+
+              <!-- match fixtures section --> 
+            <div class="col-md-4 text-light">
+              <h3 class="fw-bold text-warning">Fixtures</h3>
+              <h5><a href="" class="text-decoration-none text-light">Lorem ipsum <span class="text-warning fw-bold"> VS</span> dolor sit</a></h5>
+              <h5><a href="" class="text-decoration-none text-light">Lorem ipsum <span class="text-warning fw-bold"> VS</span> dolor sit</a></h5>
+              <h5><a href="" class="text-decoration-none text-light">Lorem ipsum <span class="text-warning fw-bold"> VS</span> dolor sit</a></h5>
+              <h5><a href="" class="text-decoration-none text-light">Lorem ipsum <span class="text-warning fw-bold"> VS</span> dolor sit</a></h5>
+
+                <!-- weekly news letter --> 
+              <h5 class="text-warning fw-bold mt-4">Subscribe to Our Weekly Newsletter</h5>
+
+              
+                <input type="email" class="form-control" placeholder="Email" aria-label="Username" aria-describedby="basic-addon1">
+
+                <button type="button" class="btn btn-outline-warning bg-dark text-warning fw-bold mt-3">Subscribe</button>
+
+                <br>
+                <br>
+
+                  <!-- sign up and sign in --> 
+                <a href="#sign-in" data-bs-toggle="modal" data-bs-target="#sign-in" class="btn btn-light text-warning"> SIGN IN</a>
+
+                <a href="#sign-up" data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn btn-light text-warning"> SIGN UP</a>
+
+            </div>
+
+      </div>
+
+      <div class="row mt-3 ">
+
+        <center>
+          <nav aria-label="breadcrumb container-fluid">
+            <ol class="breadcrumb bg-light p-2 rounded justify-content-center">
+              <li class="breadcrumb-item">
+                <a class=" text-decoration-none text-warning fw-bold" aria-current="page" href="index.html">Home</a>
+              </li>
+
+              <li class="breadcrumb-item">
+                <a class=" text-decoration-none text-warning fw-bold" href="about.html">About Us</a>
+              </li>
+
+              <li class="breadcrumb-item">
+                <a class=" text-decoration-none text-warning fw-bold" href="teamlist.html">Team</a>
+              </li>
+
+              <li class="breadcrumb-item">
+                <a class=" text-decoration-none text-warning fw-bold" href="newslist.html">News</a>
+              </li>
+
+              <li class="breadcrumb-item">
+                <a class=" text-decoration-none text-warning fw-bold" href="resultslist.html">Match Results</a>
+              </li>
+
+              <li class="breadcrumb-item">
+                <a class=" text-decoration-none text-warning fw-bold" href="fixturelist.html">Fixtures</a>
+              </li>
+
+              <li class="breadcrumb-item">
+                <a class=" text-decoration-none text-warning fw-bold" href="ticketlist.html">Buy Tickets</a>
+              </li>
+
+              <li class="breadcrumb-item">
+                <a class=" text-decoration-none text-warning fw-bold" href="contact.html">Contact Us</a>
+              </li>
+
+            </ol>
+          </nav>
+        </center>
+      </div>
+
+    </div>
+  </footer>
+
+    <!-- jQuery Library to make the counter -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Counts JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <!-- Fontawesome cdn code -->
+    <script src="https://use.fontawesome.com/86fd01a957.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
+    
+    <script type="text/javascript">
+        // jQuery counterUp
+        $('[data-toggle="counterUp"]').counterUp({
+            delay: 15,
+            time: 1500
+        });
+    </script>
+
+
+</body>
+</html>
