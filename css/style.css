@@ -279,6 +279,15 @@
 	height: 80;
 }
 
+/** news list **/
+.newslist-cont{
+	transition: transform .2s; /* Animation */
+}
+
+.newslist-cont:hover{
+	transform: scale(0.9);
+}
+
 
 
 /** footer **/

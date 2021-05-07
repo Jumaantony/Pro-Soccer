@@ -205,11 +205,11 @@
     <header class="teamdetail-header justify-content-start">
        <div class="row container-fluid gx-2 teamdetail-header-cont">
 
-          <div class="col-4">
+          <div class="col-sm-4 text-center">
             <img src="images/players/player1.jpg" class="img-fluid">
           </div>
 
-          <div class="col-8 text-light">
+          <div class="col-sm-8 text-light mb-4">
             <div class="row pb-1">
               <div class="col">
                 <h1 class="d-inline text-warning">33</h1>
@@ -268,359 +268,75 @@
 
     <!-- player stats and bio -->
 
-    <h1 class="fw-bold ms-3">STATS</h1>
-    <div class=" row container-fluid">
-      <di class="col-md-7">
+    <nav class="nav nav-pills justify-content-center mt-2" id="pills-tab" role="tablist">
+
+
+      <a class="nav-link active text-warning bg-dark fw-bold m-2" id="stats-tab" data-bs-toggle="pill" href="#pills-stats" role="tab" aria-controls="pills-stats" aria-selected="true">STATISTICS</a>
+
+      <a class="nav-link text-warning bg-dark fw-bold m-2" id="pills-bio-tab" data-bs-toggle="pill" href="#pills-bio" role="tab" aria-controls="pills-bio" aria-selected="false">BIOGRAPHY</a>
+
+    </nav>
+
+    <div class="tab-content container-fluid" id="pills-tabContent">
+
+      <div class="tab-pane fade show active" id="pills-stats" role="tabpanel" aria-labelledby="stats-tab">
+
+        <h1 class="fw-bold ms-3">STATS</h1>
         <div class="row justify-content-around">
-          <div class="col-5 col-lg-2 border border-5 border-top-0 border-end-0 border-start-0 border-warning ms-1">
+          <div class="col-6 col-lg-2">
             <img src="images/stats/games-started.jpg" class="stats-img mx-auto d-block mt-1">
             <h3 class="text-center fw-bold">5</h3>
             <h6 class="text-center fw-bold">Games started</h6>
           </div>
 
-          <div class="col-5 col-lg-2 border border-5 border-top-0 border-end-0 border-start-0 border-warning ms-1">
+          <div class="col-6 col-lg-2">
             <img src="images/stats/minutes played.png" class="stats-img mx-auto d-block mt-1">
             <h3 class="text-center fw-bold">3600</h3>
             <h6 class="text-center fw-bold">Minutes Played</h6>
           </div>
 
-          <div class="col-5 col-lg-2 border border-5 border-top-0 border-end-0 border-start-0 border-warning ms-1">
+          <div class="col-6 col-lg-2">
             <img src="images/stats/appearance.png" class="stats-img mx-auto d-block mt-1">
             <h3 class="text-center fw-bold">5</h3>
             <h6 class="text-center fw-bold">Appearances</h6>
           </div>
 
-          <div class="col-5 col-lg-2 border border-5 border-top-0 border-end-0 border-start-0 border-warning ms-1">
+          <div class="col-6 col-lg-2">
             <img src="images/stats/goals.png" class="stats-img mx-auto d-block mt-1">
             <h3 class="text-center fw-bold">0</h3>
             <h6 class="text-center fw-bold">Goals</h6>
           </div>
+
         </div>
-      </di>
+      </div>
 
-          <!-- side bar -->
-      <div class="col-md-5">
+      <div class="tab-pane fade" id="pills-bio" role="tabpanel" aria-labelledby="pills-bio-tab">
+        <h1 class="fw-bold ms-3">BIO</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, natus sed soluta necessitatibus tempore aspernatur? Praesentium, odit explicabo distinctio dolore adipisci officia iure, ut magnam optio aliquam at similique veritatis.</p>
 
-          <!-- match fixtures -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-            <h2 class="fw-bold p-1 ps-2 mt-2 bg-dark text-warning border border-4 border-top-0 border-end-0 border-start-0 border-warning">MATCH FIXTURES</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-            <table class="table justify-content-center">
-              <tbody>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
-                <tr>
-                  <td class="text-center">
-                    <img src="images/teams/img1.jpg" class="img-fluid team-img">
-                    <p class="fw-bold">Manchester United</p>
-                  </td>
-                  <td class="text-warning fw-bold text-center fs-3">VS</td>
-                  <td class="text-center">
-                    <img src="images/teams/img2.jpg" class="img-fluid team-img">
-                    <p class="fw-bold">Manchester United</p>
-                  </td>
-                </tr>
+      </div>
 
-                <tr>
-                  <td class="text-center">
-                    <img src="images/teams/img2.jpg" class="img-fluid team-img">
-                    <p class="fw-bold">Manchester United</p>
-                  </td>
-                  <td class="text-warning fw-bold text-center fs-3">VS</td>
-                  <td class="text-center">
-                    <img src="images/teams/img3.jpg" class="img-fluid team-img">
-                    <p class="fw-bold">Chealsea</p>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="text-center">
-                    <img src="images/teams/img4.jpg" class="img-fluid team-img">
-                    <p class="fw-bold">Manchester United</p>
-                  </td>
-                  <td class="text-warning fw-bold text-center fs-3">VS</td>
-                  <td class="text-center">
-                    <img src="images/teams/img5.png" class="img-fluid team-img">
-                    <p class="fw-bold">Manchester United</p>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="text-center">
-                    <img src="images/teams/img6.jpg" class="img-fluid team-img">
-                    <p class="fw-bold">Manchester United</p>
-                  </td>
-                  <td class="text-warning fw-bold text-center fs-3">VS</td>
-                  <td class="text-center">
-                    <img src="images/teams/img7.jpg" class="img-fluid team-img">
-                    <p class="fw-bold">Manchester United</p>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="text-center">
-                    <img src="images/teams/img8.jpg" class="img-fluid team-img">
-                    <p class="fw-bold">Manchester United</p>
-                  </td>
-                  <td class="text-warning fw-bold text-center fs-3">VS</td>
-                  <td class="text-center">
-                    <img src="images/teams/img4.jpg" class="img-fluid team-img">
-                    <p class="fw-bold">Manchester United</p>
-                  </td>
-                </tr>
-              </tbody>
-
-            </table>
-
-            <a href="" type="button" class="btn btn-dark text-warning fw-bold border border-warning mt-1">VIEW ALL</a>
-
-            <!-- Points table -->
-
-            <h2 class="fw-bold p-1 ps-2 mt-2 bg-dark text-warning border border-4 border-top-0 border-end-0 border-start-0 border-warning">POINTS TABLE</h2>
-
-            <div class="table-responsive">
-              <table class="table table-warning table-striped table-hover table-responsive">
-              <thead>
-                <tr>
-                  <th scope="col">RANK</th>
-                  <th scope="col">TEAM</th>
-                  <th scope="col">PLAYED</th>
-                  <th scope="col">WON</th>
-                  <th scope="col">LOST</th>
-                  <th scope="col">DRAW</th>
-                  <th scope="col">PTS</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>
-                    <img src="images/teams/img1.jpg" class="img-fluid team-img">
-                  </td>
-                  <td>20</td>
-                  <td>5</td>
-                  <td>5</td>
-                  <td>10</td>
-                  <td>25</td>
-                </tr>
-
-                <tr>
-                  <th scope="row">2</th>
-                  <td>
-                    <img src="images/teams/img2.jpg" class="img-fluid team-img">
-                  </td>
-                  <td>20</td>
-                  <td>5</td>
-                  <td>5</td>
-                  <td>10</td>
-                  <td>25</td>
-                </tr>
-
-                <tr>
-                  <th scope="row">3</th>
-                  <td>
-                    <img src="images/teams/img3.jpg" class="img-fluid team-img">
-                  </td>
-                  <td>20</td>
-                  <td>5</td>
-                  <td>5</td>
-                  <td>10</td>
-                  <td>25</td>
-                </tr>
-
-                <tr>
-                  <th scope="row">4</th>
-                  <td>
-                    <img src="images/teams/img4.jpg" class="img-fluid team-img">
-                  </td>
-                  <td>20</td>
-                  <td>5</td>
-                  <td>5</td>
-                  <td>10</td>
-                  <td>25</td>
-                </tr>
-
-                <tr>
-                  <th scope="row">5</th>
-                  <td>
-                    <img src="images/teams/img5.png" class="img-fluid team-img">
-                  </td>
-                  <td>20</td>
-                  <td>5</td>
-                  <td>5</td>
-                  <td>10</td>
-                  <td>25</td>
-                </tr>
-
-                <tr>
-                  <th scope="row">6</th>
-                  <td>
-                    <img src="images/teams/img6.jpg" class="img-fluid team-img">
-                  </td>
-                  <td>20</td>
-                  <td>5</td>
-                  <td>5</td>
-                  <td>10</td>
-                  <td>25</td>
-                </tr>
-
-                <tr>
-                  <th scope="row">7</th>
-                  <td>
-                    <img src="images/teams/img7.jpg" class="img-fluid team-img">
-                  </td>
-                  <td>20</td>
-                  <td>5</td>
-                  <td>5</td>
-                  <td>10</td>
-                  <td>25</td>
-                </tr>
-
-                <tr>
-                  <th scope="row">8</th>
-                  <td>
-                    <img src="images/teams/img8.jpg" class="img-fluid team-img">
-                  </td>
-                  <td>20</td>
-                  <td>5</td>
-                  <td>5</td>
-                  <td>10</td>
-                  <td>25</td>
-                </tr>
-
-                <tr>
-                  <th scope="row">9</th>
-                  <td>
-                    <img src="images/teams/img9.jpg" class="img-fluid team-img">
-                  </td>
-                  <td>20</td>
-                  <td>5</td>
-                  <td>5</td>
-                  <td>10</td>
-                  <td>25</td>
-                </tr>
-
-                <tr>
-                  <th scope="row">10</th>
-                  <td>
-                    <img src="images/teams/img10.jpg" class="img-fluid team-img">
-                  </td>
-                  <td>20</td>
-                  <td>5</td>
-                  <td>5</td>
-                  <td>10</td>
-                  <td>25</td>
-                </tr>
-
-              </tbody>
-            </table>
-            </div>
-
-            
-            <!-- match results -->
-
-            <h2 class="fw-bold p-1 ps-2 mt-2 bg-dark text-warning border border-4 border-top-0 border-end-0 border-start-0 border-warning">MATCH RESULTS</h2>
-
-            <table class="table justify-content-center">
-              <tbody>
-
-                <tr>
-                  <td class="text-center">
-                    <img src="images/teams/img1.jpg" class="img-fluid team-img">
-                    
-                  </td>
-                  <td class="text-dark fw-bold text-center fs-3"> 2-0</td>
-                  <td class="text-center">
-                    <img src="images/teams/img2.jpg" class="img-fluid team-img">
-                    
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="text-center">
-                    <img src="images/teams/img2.jpg" class="img-fluid team-img">
-                    
-                  </td>
-                  <td class="text-dark fw-bold text-center fs-3"> 2-4</td>
-                  <td class="text-center">
-                    <img src="images/teams/img3.jpg" class="img-fluid team-img">
-                    
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="text-center">
-                    <img src="images/teams/img4.jpg" class="img-fluid team-img">
-                    
-                  </td>
-                  <td class="text-dark fw-bold text-center fs-3"> 2-4</td>
-                  <td class="text-center">
-                    <img src="images/teams/img5.png" class="img-fluid team-img">
-                    
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="text-center">
-                    <img src="images/teams/img6.jpg" class="img-fluid team-img">
-                    
-                  </td>
-                  <td class="text-dark fw-bold text-center fs-3"> 5-0</td>
-                  <td class="text-center">
-                    <img src="images/teams/img7.jpg" class="img-fluid team-img">
-                    
-                  </td>
-                </tr>
-
-                <tr>
-                  <td class="text-center">
-                    <img src="images/teams/img8.jpg" class="img-fluid team-img">
-                    
-                  </td>
-                  <td class="text-dark fw-bold text-center fs-3"> 2-1</td>
-                  <td class="text-center">
-                    <img src="images/teams/img4.jpg" class="img-fluid team-img">
-                    
-                  </td>
-                </tr>
-              </tbody>
-
-            </table>
-
-            <a href="" type="button" class="btn btn-dark text-warning fw-bold border border-warning mt-1">VIEW MORE</a>
-
-            <br>
-
-            <!-- recent news -->
-
-            <h2 class="fw-bold p-1 ps-2 mt-2 bg-dark text-light border border-4 border-top-0 border-end-0 border-start-0 border-warning">RECENT NEWS</h2>
-
-            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
-
-            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
-
-            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
-
-            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
-
-            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
-
-            <br>
-
-            <!-- latest blog posts -->
-
-            <h2 class="fw-bold p-1 ps-2 mt-2 bg-dark text-light border border-4 border-top-0 border-end-0 border-start-0 border-warning">LATEST BLOG POSTS</h2>
-
-            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
-
-            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
-
-            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
-
-            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
-
-            <h5><a href="" class="text-decoration-none text-dark">Lorem ipsum dolor sit amet</a></h5>
-      </div> 
-    
     </div>
 
 
