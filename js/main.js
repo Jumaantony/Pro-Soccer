@@ -22,3 +22,6 @@ function myFunction(imgs) {
   // Show the container element (hidden with CSS)
   expandImg.parentElement.style.display = "block";
 }
+
+// animate on scroll intialization
+  AOS.init();
