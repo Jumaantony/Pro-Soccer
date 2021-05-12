@@ -131,6 +131,7 @@
 	background-image: url('../images/about-header.jpg');
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
 	height: 50vh;
 }
 
@@ -288,6 +289,109 @@
 	transform: scale(0.9);
 }
 
+
+/** fixtures **/
+.fixture-img{
+	height: 18%;
+	width: 18%;
+}
+
+.fixture-cont{
+   height: auto;
+}
+
+.fix-overlay{
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 100%;
+  transition: .5s ease;
+}
+
+.fixture-cont:hover .fix-overlay{
+   width: 100%;
+}
+
+.fix-info{
+	height: auto;
+	left: 40%; 
+  	top: 25%;
+  	-webkit-transform: translate(-30%, -30%);
+  	-ms-transform: translate(-30%, -30%);
+  	transform: translate(-30%, -30%);
+  	white-space: nowrap;
+}
+
+.date-time{
+	margin-top: -20px;
+	margin-bottom: 2px;
+}
+
+.fixture-detail{
+	margin-top: -3px;
+}
+
+/* results list */
+
+.left-chevron{
+	margin-right: -48px;
+	height: 150px;
+	width: 25%;
+	clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+
+.result-info{
+	margin-right: -48px;
+	height: 150px;
+	width: 55%;
+}
+
+.right-chevron{
+	height: 150px;
+	width: 25%;
+	clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+}
+
+.result-img{
+	width: 50px;
+	width: 50px;
+	margin-left: -30px;
+}
+
+.team-name{
+	margin-left: -25px;
+}
+
+.goals{
+	margin-top: 50px;
+
+}
+
+.stadium{
+	margin-left: 8%;
+	margin-right: 5%;
+}
+
+.date{
+	margin-left: 8%;
+}
+
+.detailedresult{
+	margin-left: 8.5%;
+}
+
+/** Contact **/
+
+.contact-header{
+	background-image: url('../images/contactus.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 30vh;
+}
 
 
 /** footer **/
