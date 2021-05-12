@@ -318,7 +318,7 @@
 
 .fix-info{
 	height: auto;
-	left: 40%; 
+	left: 30%; 
   	top: 25%;
   	-webkit-transform: translate(-30%, -30%);
   	-ms-transform: translate(-30%, -30%);
@@ -327,65 +327,61 @@
 }
 
 .stadium{
+	font-size: 15px;
 	margin-left: -20px;
 }
 
 .date-time{
+	font-size: 15px;
 	margin-top: -20px;
 	margin-bottom: 2px;
 }
 
 .fixture-detail{
+	font-size: 15px;
 	margin-top: -3px;
 }
 
 /* results list */
 
 .left-chevron{
-	margin-right: -48px;
-	height: 150px;
-	width: 100px;
+
+
 	clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
 }
 
 .result-info{
-	margin-right: -48px;
-	height: 150px;
-	width: 220px;
-}
+	clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+	margin-left: -42px;
+	margin-right: -42px;
+}	
 
 .right-chevron{
-	height: 150px;
-	width: 100px;
+
 	clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 
 .result-img{
 	width: 50px;
 	width: 50px;
-	margin-left: 20px;
 }
 
 .team-name{
-	margin-left: 20px;
+
 }
 
 .goals{
-	margin-top: 50px;
-	margin-left: 40px;
+
 }
 
-.stadium{
-	margin-left: 35px;
-	margin-right: 5%;
-}
+
 
 .date{
-	margin-left: 35px;
+
 }
 
 .detailedresult{
-	margin-left: 35px;
+
 }
 
 /** Contact **/
