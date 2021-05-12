@@ -292,13 +292,14 @@
 
 /** fixtures **/
 .fixture-img{
-	height: 18%;
-	width: 18%;
+	height: 60%;
+	width: 60%;
 }
 
 .fixture-cont{
    height: auto;
 }
+
 
 .fix-overlay{
   bottom: 0;
